@@ -1,0 +1,371 @@
+body
+  {
+    overflow-x:hidden;
+  }
+input,
+input::placeholder {
+    font: 14px/3 sans-serif;
+}
+
+.round1 {
+    position: relative;
+    top: -38px;
+    left: 39px;
+    font-size: 14px;
+    background: #FF4416;
+}
+.btn1
+{
+background: #FF4416;
+    color: #fff;
+    width: 124px;
+}
+.btn-view
+{
+  background: #FF4416;
+  color: #fff;
+  width: 124px;
+  position: relative;
+  bottom: 188px;
+  left: 67%;
+  padding: 9px;
+  font-size: 14px;
+    
+}
+.btn-view2
+{
+  background: #FF4416;
+  color: #fff;
+  width: 124px;
+  padding: 9px;
+  font-size: 14px;
+}
+.btn-view3
+{
+  background: #fff;
+  color: gray;
+  padding: 11px 27px;
+  font-size: 14px;
+}
+
+
+.box-blue
+{
+  background:#252e56;
+  color:#fff;
+  margin-top: -237px;
+  padding: 67px;
+  
+}
+.btn-view1
+{
+  background: #FF4416;
+  color: #fff;
+  width: 124px;
+  position: relative;
+  bottom: 153px;
+  left: 67%;
+  padding: 9px;
+  font-size: 14px;
+}
+.view1
+{
+  margin-left: 58%;
+  border-bottom: 2px solid #b1a8a8;
+
+}
+
+.search1
+{
+    margin-left: -28px;
+}
+.book1
+{
+    margin-left: 152px;
+}
+.rev
+{
+  color: #fc624d;
+  font-size: 11px;
+}
+.rev1 
+{
+  font-size:10px;
+  color:gray;
+}
+.rev2
+{
+  color:gray;
+  font-size:12px;
+}
+.all1
+{
+
+  background-color: red;
+  color: #fff;
+  width: 71px;
+}
+.all2
+{
+  background-color: #fff;
+  color:#000;
+  border:1px solid #cdbebe;
+}
+.all1:hover
+{
+  color:#fff;
+}
+.all2:hover
+{
+
+  background-color:red;
+  color:#fff;
+}
+.image-hor
+{
+  height: 193px;
+}
+form.example input[type=text] {
+   
+  padding: 0px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 372px;
+  background: #fff;
+
+  }
+  form.example button {
+  
+    float: left;
+    width: 10%;
+    color: #FF4416;
+    font-size: 22px;
+    cursor: pointer;
+    position: relative;
+    bottom: 47px;
+    left: 332px;
+    border: none;
+    background: none;
+
+}
+.box2
+{
+    background:#f7e8e8;
+}
+.hom
+{
+    color:#000;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .faq
+  {
+    margin-left: 40px;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .box-horror
+  {
+    background-color: red;
+   height:434px;
+  }
+  .card-one
+  {
+    height:160px;
+  }
+  .rage
+  {
+    margin-top: 110px;
+  }
+  .image-horror
+  {
+   
+    border: none;
+    margin-top: -42px;
+    height: 411px;
+
+  }
+  .rain1
+  {
+    color:gray;
+    font-size:12px;
+  }
+  .button1
+  {
+    border:1px solid red;
+    color:red;
+  }
+  .button1:hover
+  {
+    background:red;
+    color:#fff;
+  }
+  .lan-nen1
+  {
+    width:100%;
+    height:41%;
+  }
+  .lan-nen2
+  {
+    width:100%;
+    height:41%;
+  }
+
+    .first-txt {
+      color: #fff;
+      position: relative;
+      top: -118px;
+      left: 48px;
+  }
+  .first-txt1
+  {
+    color: #fff;
+    position: relative;
+    top: -112px;
+    left: 48px;
+  }
+ 
+  .abc
+  {
+    color:#252e56;
+  }
+  .abc1
+  {
+    color:#252e56;
+  }
+  .box-pink
+  {
+    background:#f7e8e8;
+   
+  }
+  .box-pink1
+  {
+    background:#f7e8e8;
+  }
+  .kite1
+  {
+    height:300px;
+  }
+
+
+  @media (max-width:992px)
+  {
+    form.example input[type=text] {
+        width:auto;
+    }
+    .btn-view
+{
+  background: #FF4416;
+  color: #fff;
+  width: 124px;
+  position: relative;
+  bottom: 149px;
+  left: 67%;
+  padding: 9px;
+  font-size: 14px;
+    
+}
+.view1
+{
+  margin:auto;
+  border-bottom: 2px solid #b1a8a8;
+
+}
+.btn-view2
+{
+margin-top:13px;
+}
+.btn-view1
+{
+  background: #FF4416;
+  color: #fff;
+  width: 124px;
+  position: relative;
+  bottom: 107px;
+  left: 56%;
+  padding: 9px;
+  font-size: 14px;
+}
+    .jevelin1
+    {
+      margin-left: 0px;
+    }
+    .image-horror
+    {
+     
+      border: none;
+      margin-top:40px;
+      height: 411px;
+  
+    }
+    .box-blue
+    {
+      margin-top: -113px;
+      
+    }    
+    .first-txt1
+    {
+      color: #fff;
+      position: relative;
+      top: -67px;
+      left: 36px;
+      font-size: 16px;
+    }
+    .first-txt
+    {
+      text-align: center;
+    color: #fff;
+    position: relative;
+    top: -91px;
+    left: -77px;
+    font-size: 22px;
+    }
+    
+    
+    .image-hor {
+      height: auto;
+  }
+  .card-one {
+  height:auto;
+}
+.btn-view
+{
+  background: #FF4416;
+  color: #fff;
+  width: 124px;
+  position: relative;
+  bottom: 149px;
+  left: 57%;
+  padding: 9px;
+  font-size: 14px;
+}
+ .kite1
+{
+  height:auto;
+}
+
+    form.example button
+    {
+        float: left;
+        width: 10%;
+        color: #FF4416;
+        font-size: 22px;
+        cursor: pointer;
+        position: relative;
+        bottom: 47px;
+        left: 330px;
+        border: none;
+        background: none;
+    }
+    .faq
+    {
+      margin-left: 0px;
+    }
+  }
