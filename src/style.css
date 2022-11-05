@@ -1,7 +1,4 @@
-body
-  {
-    overflow-x:hidden;
-  }
+
 input,
 input::placeholder {
     font: 14px/3 sans-serif;
@@ -253,12 +250,20 @@ form.example input[type=text] {
   {
     height:300px;
   }
+  body
+  {
+    overflow-x:hidden;
+  }
 
 
   @media (max-width:992px)
   {
+    body {
+      overflow-x: hidden !important;
+  }
     form.example input[type=text] {
-        width:auto;
+      width: 99%;
+      float: left;
     }
     .btn-view
 {
@@ -353,16 +358,16 @@ margin-top:13px;
 
     form.example button
     {
-        float: left;
-        width: 10%;
-        color: #FF4416;
-        font-size: 22px;
-        cursor: pointer;
-        position: relative;
-        bottom: 47px;
-        left: 330px;
-        border: none;
-        background: none;
+      float: left;
+      width: 10%;
+      color: #FF4416;
+      font-size: 22px;
+      cursor: pointer;
+      position: absolute;
+      bottom: 336px;
+      left: 248px;
+      border: none;
+      background: none;
     }
     .faq
     {
